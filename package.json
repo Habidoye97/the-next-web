@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "postcss-scss": "^3.0.4"
+  }
+}
