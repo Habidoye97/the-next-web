@@ -180,7 +180,7 @@
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
-#topic2 {
+#topic2, #topic3 {
   position: absolute;
   bottom: 15%;
   opacity: none;
@@ -190,7 +190,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#topic2 a {
+#topic2 a, #topic3 a {
   text-decoration: none;
   color: inherit;
   font-weight: 900;
@@ -199,7 +199,7 @@
   font-weight: 900;
 }
 
-#topicauthor2 {
+#topicauthor2, #topicauthor3 {
   position: absolute;
   bottom: 10%;
   left: 3%;
@@ -208,7 +208,7 @@
   font-size: 12px;
 }
 
-#headtopic2 {
+#headtopic2, #headtopic3 {
   color: #ffffff;
   position: absolute;
   bottom: 48%;
@@ -216,12 +216,12 @@
   
 }
 
-#headtopic2 a {
+#headtopic2 a, #headtopic3 a {
   text-decoration: none;
   color: inherit;
 }
 
-#topicauthor2 {
+#topicauthor2, #topicauthor3 {
   position: absolute;
   bottom: 7%;
   left: 3%;
@@ -230,12 +230,12 @@
   font-size: 12px;
 }
 
-#topicauthor2 a {
+#topicauthor2 a, #topicauthor3 a {
   text-decoration: none;
   color: inherit;
 }
 
-#topicauthor2 a:hover {
+#topicauthor2 a:hover, #topicauthor3 a:hover {
   color: #ffffff;
 }
 
