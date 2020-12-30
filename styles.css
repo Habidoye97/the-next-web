@@ -22,10 +22,28 @@
 .top-head-section1 a,
 .top-head-section2 a {
   text-decoration: none;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsla(0, 0%, 100%, 0.6);
   font-size: 13px;
   padding-right: 20px;
-  font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif
+  font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif;
+}
+
+.search {
+  height: 48px;
+  width: 50px;
+  padding-top: 12px;
+  padding-left: 15px;
+  border-left: 1px solid grey;
+}
+
+.search  a {
+  color: #aaa;
+  font-size: 20px;
+}
+
+.second-head-section1 {
+  display: flex;
+  list-style: none;
 }
 
 .top-head-section1 a:hover,
@@ -48,32 +66,14 @@
   box-shadow: 0 15px #eaecee;
 }
 
-.second-head-section1 {
-  display: flex;
-  list-style: none;
-}
-
 .second-head-section1 a {
   text-decoration: none;
   color: #aaa;
-  letter-spacing: .04em;
+  letter-spacing: 0.4em;
   line-height: 1;
   padding-right: 15px;
   font-size: 15px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-}
-
-.search  a {
-  color: #aaa;
-  font-size: 20px;
-}
-
-.search {
-  height: 48px;
-  width: 50px;
-  padding-top: 12px;
-  padding-left: 15px;
-  border-left: 1px solid grey;
 }
 
 .news-top-head {
@@ -97,7 +97,6 @@
 
 .news-top-headpics2 {
   background-image: url("./assets/top2.jpg");
- 
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -118,7 +117,7 @@
 }
 
 #date {
-  color: #ffffff;
+  color: #fff;
   position: absolute;
   right: 24px;
   top: 16px;
@@ -143,7 +142,7 @@
   bottom: 15%;
   opacity: none;
   left: 3%;
-  color: #ffffff;
+  color: #fff;
   width: 85%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -156,7 +155,28 @@
   line-height: 40px;
 }
 
+#topic2,
+#topic3 {
+  position: absolute;
+  bottom: 15%;
+  opacity: none;
+  left: 3%;
+  color: #fff;
+  width: 90%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #topicauthor {
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  color: hsla(0,0%,100%,.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#topicauthor2,
+#topicauthor3 {
   position: absolute;
   bottom: 10%;
   left: 3%;
@@ -183,17 +203,6 @@
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
-#topic2,
-#topic3 {
-  position: absolute;
-  bottom: 15%;
-  opacity: none;
-  left: 3%;
-  color: #fff;
-  width: 90%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 #topic2 a,
 #topic3 a {
   text-decoration: none;
@@ -202,16 +211,6 @@
   font-size: 25px;
   line-height: -1rem;
   font-weight: 900;
-}
-
-#topicauthor2,
-#topicauthor3 {
-  position: absolute;
-  bottom: 10%;
-  left: 3%;
-  color: hsla(0,0%,100%,.6);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
 }
 
 #headtopic2,
