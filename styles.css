@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -11,13 +12,11 @@
   height: 32px;
   align-items: center;
   padding-left: 20px;
-  
 }
 
 .top-head-section1, .top-head-section2 {
   display: flex;
   list-style-type: none;
-  
 }
 
 .top-head-section1 a, .top-head-section2 a {
@@ -39,20 +38,212 @@
 .second-head-section {
   display: flex;
   justify-content: space-between;
+  height: 48px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  box-shadow: 0 15px #EAECEE;
 }
 .second-head-section1 {
   display: flex;
-  list-style: none;
-  padding-left: 20px;
+  list-style: none;  
 }
 
 .second-head-section1 a {
   text-decoration: none;
   color: #aaa;
-  height: 48px;
   letter-spacing: .04em;
   line-height: 1;
   padding-right: 15px;
   font-size: 15px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+}
+
+.search  a {
+  color: #aaa;
+  font-size: 20px;
+}
+
+.search {
+  height: 48px;
+  width: 50px;
+  padding-top: 12px;
+  padding-left: 15px;
+  border-left: 1px solid grey;
+}
+.news-top-head {
+  display: grid;
+  grid-template-columns: 32.5% 32.5% 32.5%;
+  grid-template-rows: 249px 249px;
+  box-sizing: border-box;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.news-top-headpics1 {
+  background-image: url("./assets/top1.png");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.news-top-headpics2 {
+  background-image: url("./assets/top2.jpg");
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news-top-headpics3 {
+  background-image: url("./assets/pics3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#news-top-headdetails1 {
+  background-image: linear-gradient(#cf2310, #53575a , #373a3d);
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: relative;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+}
+
+#date {
+  color: #ffffff;
+  position: absolute;
+  right: 24px;
+  top: 16px;
+  font-size: 0.9rem;
+}
+
+#headtopic {
+  color: #ffffff;
+  position: absolute;
+  bottom: 35%;
+  left: 3%;
+  
+}
+
+#headtopic a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#topic {
+  position: absolute;
+  bottom: 15%;
+  opacity: none;
+  left: 3%;
+  color: #ffffff;
+  width: 85%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#topic a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 40px;
+}
+
+#topicauthor {
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  color: hsla(0,0%,100%,.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#topicauthor a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#topicauthor a:hover {
+  color: #ffffff;
+}
+
+#news-top-headdetails2 {
+  background-image: linear-gradient( #EAECEE, #566573, black);
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: relative;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+}
+
+#topic2 {
+  position: absolute;
+  bottom: 15%;
+  opacity: none;
+  left: 3%;
+  color: #ffffff;
+  width: 90%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#topic2 a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: -1rem;
+  font-weight: 900;
+}
+
+#topicauthor2 {
+  position: absolute;
+  bottom: 10%;
+  left: 3%;
+  color: hsla(0,0%,100%,.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#headtopic2 {
+  color: #ffffff;
+  position: absolute;
+  bottom: 48%;
+  left: 3%;
+  
+}
+
+#headtopic2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#topicauthor2 {
+  position: absolute;
+  bottom: 7%;
+  left: 3%;
+  color: hsla(0,0%,100%,.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#topicauthor2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#topicauthor2 a:hover {
+  color: #ffffff;
+}
+
+#news-top-headdetails3 {
+  background-image: linear-gradient( #EAECEE, #566573, black);
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: relative;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
