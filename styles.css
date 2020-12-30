@@ -13,13 +13,13 @@
   padding-left: 20px;
 }
 
-.top-head-section1, 
+.top-head-section1,
 .top-head-section2 {
   display: flex;
   list-style-type: none;
 }
 
-.top-head-section1 a, 
+.top-head-section1 a,
 .top-head-section2 a {
   text-decoration: none;
   color: hsla(0,0%,100%,.6);
@@ -73,6 +73,7 @@
   padding-left: 15px;
   border-left: 1px solid grey;
 }
+
 .news-top-head {
   display: grid;
   grid-template-columns: 32.5% 32.5% 32.5%;
@@ -86,7 +87,6 @@
 
 .news-top-headpics1 {
   background-image: url("./assets/top1.png");
-  
   background-repeat: no-repeat;
   background-size: cover;
   grid-column: 1 / 3;
@@ -181,17 +181,19 @@
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
-#topic2, #topic3 {
+#topic2,
+#topic3 {
   position: absolute;
   bottom: 15%;
   opacity: none;
   left: 3%;
-  color: #ffffff;
+  color: #fff;
   width: 90%;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#topic2 a, #topic3 a {
+#topic2 a,
+#topic3 a {
   text-decoration: none;
   color: inherit;
   font-weight: 900;
@@ -200,7 +202,8 @@
   font-weight: 900;
 }
 
-#topicauthor2, #topicauthor3 {
+#topicauthor2,
+#topicauthor3 {
   position: absolute;
   bottom: 10%;
   left: 3%;
@@ -209,20 +212,22 @@
   font-size: 12px;
 }
 
-#headtopic2, #headtopic3 {
+#headtopic2,
+#headtopic3 {
   color: #ffffff;
   position: absolute;
   bottom: 48%;
   left: 3%;
-  
 }
 
-#headtopic2 a, #headtopic3 a {
+#headtopic2 a,
+#headtopic3 a {
   text-decoration: none;
   color: inherit;
 }
 
-#topicauthor2, #topicauthor3 {
+#topicauthor2,
+#topicauthor3 {
   position: absolute;
   bottom: 7%;
   left: 3%;
@@ -231,17 +236,19 @@
   font-size: 12px;
 }
 
-#topicauthor2 a, #topicauthor3 a {
+#topicauthor2 a,
+#topicauthor3 a {
   text-decoration: none;
   color: inherit;
 }
 
-#topicauthor2 a:hover, #topicauthor3 a:hover {
+#topicauthor2 a:hover,
+#topicauthor3 a:hover {
   color: #ffffff;
 }
 
 #news-top-headdetails3 {
-  background-image: linear-gradient( #EAECEE, #566573, black);
+  background-image: linear-gradient( #eaecee, #566573, black);
   width: 100%;
   height: 100%;
   opacity: 0.8;
