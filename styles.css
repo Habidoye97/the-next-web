@@ -22,13 +22,14 @@
 .top-head-section1 a,
 .top-head-section2 a {
   text-decoration: none;
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, .6);
   font-size: 13px;
   padding-right: 20px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif
+  font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif
 }
 
-.top-head-section1 a:hover, .top-head-section2 a:hover {
+.top-head-section1 a:hover,
+.top-head-section2 a:hover {
   color: whitesmoke;
 }
 
@@ -44,11 +45,12 @@
   padding-left: 20px;
   padding-right: 20px;
   background-color: white;
-  box-shadow: 0 15px #EAECEE;
+  box-shadow: 0 15px #eaecee;
 }
+
 .second-head-section1 {
   display: flex;
-  list-style: none;  
+  list-style: none;
 }
 
 .second-head-section1 a {
