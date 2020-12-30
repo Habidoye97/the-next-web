@@ -193,25 +193,27 @@
   font-weight: 900;
   font-size: 25px;
   line-height: -1rem;
-  font-weight: 900;
+  
 }
 
 #headtopic2,
 #headtopic3 {
-  color: #ffffff;
+  color: #fff;
   position: absolute;
   bottom: 48%;
   left: 3%;
 }
 
-#topicauthor2,
-#topicauthor3 {
-  position: absolute;
-  bottom: 7%;
-  left: 3%;
-  color: hsla(0, 0%, 100%, 0.6);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+#topicauthor2 a,
+#topicauthor3 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#headtopic2 a,
+#headtopic3 a {
+  text-decoration: none;
+  color: inherit;
 }
 
 #topicauthor a:hover {
@@ -227,25 +229,13 @@
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
-#headtopic2 a,
-#headtopic3 a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#topicauthor2 a,
-#topicauthor3 a {
-  text-decoration: none;
-  color: inherit;
-}
-
 #topicauthor2 a:hover,
 #topicauthor3 a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 
 #news-top-headdetails3 {
-  background-image: linear-gradient( #eaecee, #566573, black);
+  background-image: linear-gradient(#eaecee, #566573, black);
   width: 100%;
   height: 100%;
   opacity: 0.8;
