@@ -244,8 +244,8 @@
 
 .thelatestnews-section {
   width: 100%;
-  padding-left: 8%; 
-  padding-top: 80px; 
+  padding-left: 8%;
+  padding-top: 80px;
 }
 
 #latestnews {
@@ -260,7 +260,7 @@
 
 .thelatestnews {
   display: grid;
-  grid-template-columns: 270px 270px 270px 270px; 
+  grid-template-columns: 270px 270px 270px 270px;
   grid-column-gap: 20px;
   grid-template-rows: 250px 250px;
 }
@@ -274,27 +274,67 @@ img {
   color: black;
 }
 
-#latesttopicnews {
+#latesttopicnews,
+#latesttopicnews1,
+#latesttopicnews2,
+#latesttopicnews3,
+#latesttopicnews4,
+#latesttopicnews5,
+#latesttopicnews6,
+#latesttopicnews7 {
   font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif;
   font-size: 16px;
   text-decoration: none;
   color: #000;
 }
 
-#latesttopicnewsothers {
+#latesttopicnewsothers,
+#latesttopicnewsothers1,
+#latesttopicnewsothers2,
+#latesttopicnewsothers3,
+#latesttopicnewsothers4,
+#latesttopicnewsothers5,
+#latesttopicnewsothers6,
+#latesttopicnewsothers7 {
   font-size: 13px;
   font-weight: bolder;
   color: #aaa;
   font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif;
 }
 
-#latesttopicnewsothers1 {
+#latesttopicnewsothers11,
+#latesttopicnewsothers12,
+#latesttopicnewsothers13,
+#latesttopicnewsothers14,
+#latesttopicnewsothers15,
+#latesttopicnewsothers16,
+#latesttopicnewsothers17,
+#latesttopicnewsothers18 {
   text-decoration: none;
   color: #aaa;
   font-size: 13px;
   font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif;
 }
 
-#latesttopicnewsothers1:hover {
-  color:black;
+#latesttopicnews:hover,
+#latesttopicnews1:hover,
+#latesttopicnews2:hover,
+#latesttopicnews3:hover,
+#latesttopicnews4:hover,
+#latesttopicnews5:hover,
+#latesttopicnews6:hover,
+#latesttopicnews7:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+#latesttopicnewsothers11:hover,
+#latesttopicnewsothers12:hover,
+#latesttopicnewsothers13:hover,
+#latesttopicnewsothers14:hover,
+#latesttopicnewsothers15:hover,
+#latesttopicnewsothers16:hover,
+#latesttopicnewsothers17:hover,
+#latesttopicnewsothers18:hover {
+  color: black;
 }
