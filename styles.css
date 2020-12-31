@@ -193,6 +193,7 @@
   font-weight: 900;
   font-size: 25px;
   line-height: -1rem;
+  opacity: 1.0;
 }
 
 #headtopic2,
@@ -337,4 +338,106 @@ img {
 #latesttopicnewsothers17:hover,
 #latesttopicnewsothers18:hover {
   color: black;
+}
+
+.latest-funding {
+  display: flex;
+  justify-content: space-between;
+  color: #f42;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+.latest-funding a {
+  text-decoration: none;
+  color: #f42;
+  font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif;
+}
+
+.latest-funding a:hover {
+  color: black;
+}
+
+.main-latest-funding-card {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-column-gap: 20px;
+  justify-content: center;
+}
+
+.latest-funding-card-head {
+  text-decoration: none;
+  position: relative;
+  width: 270px;
+  height: 96.6667px;
+  font-family: "Helvetica-Neue", Arial, sans-serif;
+}
+
+#cardimg {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+}
+
+.zipari {
+  width: 270px;
+  text-align: center;
+  height: 39.3333px;
+  background: #f42;
+  color: #fff;
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.card-head-details {
+  width: 270px;
+  height: 57.3334px;
+  background-color: rgba(255, 68, 34, 0.08);
+  padding-left: 80px;
+  padding-top: 15px;
+  color: #000;
+  font-size: 16px;
+}
+
+.card-head-details h5 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: gray;
+}
+
+.funding-card-details {
+  width: 270px;
+  height: 82.5px;
+  font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif;
+  background-color: rgba(255, 68, 34, 0.05);
+  padding-left: 35px;
+  padding-top: 10px;
+}
+
+.funding-card-details a {
+  text-decoration: none;
+  color: gray;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.last-funding-card-details {
+  width: 270px;
+  height: 88.5px;
+  font-family: "ARS-Maquette", "Helvetica-Neue", Arial, sans-serif;
+  background-color: rgba(255, 68, 34, 0.05);
+  border-top: 1px solid #f42;
+  padding: 15px 25px 10px 25px;
+  font-size: 12px;
+  color: gray;
+  line-height: 20px;
+}
+
+.last-funding-card-details a {
+  text-decoration: none;
+  color: #D5D8DC;
 }
