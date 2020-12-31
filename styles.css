@@ -83,7 +83,14 @@
 
 .last-funding-card-details a {
   text-decoration: none;
-  color: #D5D8DC;
+  color: #d5d8dc;
+}
+
+.funding-card-details a {
+  text-decoration: none;
+  color: gray;
+  line-height: 30px;
+  font-size: 14px;
 }
 
 .top-head-section1 a:hover,
@@ -424,13 +431,6 @@ img {
   font-family: sans-serif;
   font-weight: lighter;
   color: gray;
-}
-
-.funding-card-details a {
-  text-decoration: none;
-  color: gray;
-  line-height: 30px;
-  font-size: 14px;
 }
 
 .last-funding-card-details {
