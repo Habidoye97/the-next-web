@@ -93,6 +93,21 @@
   font-size: 14px;
 }
 
+.second-head-details a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.all-article-list a {
+  color: #555;
+  text-decoration: none;
+  padding: 10px 0 6px 14px;
+  display: block;
+  font-size: 13px;
+}
+
 .top-head-section1 a:hover,
 .top-head-section2 a:hover {
   color: whitesmoke;
@@ -159,6 +174,10 @@
 
 .latest-funding a:hover {
   color: black;
+}
+
+.all-article-list a:hover {
+  color: #000;
 }
 
 #headtopic a {
@@ -247,10 +266,6 @@
   color: inherit;
 }
 
-#topicauthor a:hover {
-  color: #fff;
-}
-
 #news-top-headdetails2 {
   background-image: linear-gradient(#eaedee, #566573, black);
   width: 100%;
@@ -258,11 +273,6 @@
   opacity: 0.8;
   position: relative;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-}
-
-#topicauthor2 a:hover,
-#topicauthor3 a:hover {
-  color: #fff;
 }
 
 #news-top-headdetails3 {
@@ -297,7 +307,14 @@
   grid-template-rows: 250px 250px;
 }
 
-#pictures {
+#pictures,
+#pictures1,
+#pictures2,
+#pictures3,
+#pictures4,
+#pictures5,
+#pictures6,
+#pictures7 {
   width: 270px;
   height: 135px;
 }
@@ -445,14 +462,12 @@
   line-height: 20px;
 }
 
-
 .section-column {
   padding-top: 80px;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 390px);
 }
-
 
 .column-first-head-image {
   width: 368px;
@@ -476,21 +491,45 @@
   opacity: 1;
 }
 
-#revheadtopic {
+#revheadtopic,
+#revheadtopic1,
+#revheadtopic2,
+#revheadtopic3,
+#revheadtopic4,
+#revheadtopic5,
+#revheadtopic6,
+#revheadtopic7,
+#revheadtopic8 {
   color: #fff;
   position: absolute;
   bottom: 30%;
   left: 3%;
 }
 
-#revheadtopic a {
+#revheadtopic a,
+#revheadtopic1 a,
+#revheadtopic2 a,
+#revheadtopic3 a,
+#revheadtopic4 a,
+#revheadtopic5 a,
+#revheadtopic6 a,
+#revheadtopic7 a,
+#revheadtopic8 a {
   text-decoration: none;
   color: inherit;
   font-size: 13px;
   font-family: 'Times New Roman', Times, serif;
 }
 
-#revtopic {
+#revtopic,
+#revtopic1,
+#revtopic2,
+#revtopic3,
+#revtopic4,
+#revtopic5,
+#revtopic6,
+#revtopic7,
+#revtopic8 {
   position: absolute;
   bottom: 12%;
   left: 3%;
@@ -499,7 +538,15 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#revtopic a {
+#revtopic a,
+#revtopic1 a,
+#revtopic2 a,
+#revtopic3 a,
+#revtopic4 a,
+#revtopic5 a,
+#revtopic6 a,
+#revtopic7 a,
+#revtopic8 a {
   text-decoration: none;
   color: inherit;
   font-weight: 900;
@@ -508,7 +555,15 @@
   opacity: 1;
 }
 
-#revtopicauthor {
+#revtopicauthor,
+#revtopicauthor1,
+#revtopicauthor2,
+#revtopicauthor3,
+#revtopicauthor4,
+#revtopicauthor5,
+#revtopicauthor6,
+#revtopicauthor7,
+#revtopicauthor8 {
   position: absolute;
   bottom: 5%;
   left: 3%;
@@ -517,9 +572,26 @@
   font-size: 11px;
 }
 
-#revtopicauthor a {
+#revtopicauthor a,
+#revtopicauthor1 a,
+#revtopicauthor2 a,
+#revtopicauthor3 a,
+#revtopicauthor4 a,
+#revtopicauthor5 a,
+#revtopicauthor6 a,
+#revtopicauthor7 a,
+#revtopicauthor8 a {
   text-decoration: none;
   color: inherit;
+}
+
+#topicauthor a:hover {
+  color: #fff;
+}
+
+#topicauthor2 a:hover,
+#topicauthor3 a:hover {
+  color: #fff;
 }
 
 .column-second-head {
@@ -529,7 +601,15 @@
   background-color: rgba(255, 68, 34, 0.1);
 }
 
-#smallimg {
+#smallimg,
+#smallimg1,
+#smallimg2,
+#smallimg3,
+#smallimg4,
+#smallimg5,
+#smallimg6,
+#smallimg7,
+#smallimg8 {
   width: 96px;
   height: 96px;
 }
@@ -545,14 +625,6 @@
   padding-bottom: 4px;
 }
 
-.second-head-details a {
-  text-decoration: none;
-  color: #f42;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-
 #revtopicauthor a:hover {
   color: #fff;
 }
@@ -566,27 +638,31 @@
   padding-left: 15px;
 }
 
-.all-article-list a {
-  color: #555;
-  text-decoration: none;
-  padding: 10px 0 6px 14px;
-  display: block;
-  font-size: 13px;
-}
-
 .all-article-list li {
   border-bottom: 1px solid rgb(214, 219, 223);
 }
 
-#hard {
+#hard,
+#hard1,
+#hard2,
+#hard3,
+#hard4,
+#hard5,
+#hard6,
+#hard7,
+#hard8 {
   color: #f42;
   text-decoration: none;
 }
 
-#hard:hover {
-  color: #000;
-}
-
-.all-article-list a:hover {
+#hard:hover,
+#hard1:hover,
+#hard2:hover,
+#hard3:hover,
+#hard4:hover,
+#hard5:hover,
+#hard6:hover,
+#hard8:hover,
+#hard7:hover {
   color: #000;
 }
