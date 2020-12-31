@@ -252,7 +252,7 @@
 }
 
 #news-top-headdetails2 {
-  background-image: linear-gradient(#eaecee, #566573, black);
+  background-image: linear-gradient(#eaedee, #566573, black);
   width: 100%;
   height: 100%;
   opacity: 0.8;
@@ -297,7 +297,7 @@
   grid-template-rows: 250px 250px;
 }
 
-img {
+#pictures {
   width: 270px;
   height: 135px;
 }
@@ -443,4 +443,150 @@ img {
   font-size: 12px;
   color: gray;
   line-height: 20px;
+}
+
+
+.section-column {
+  padding-top: 80px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 390px);
+}
+
+
+.column-first-head-image {
+  width: 368px;
+  height: 276px;
+  background-image: url("./assets/sectionimage1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-head-image-opac {
+  background-image: linear-gradient(rgb(171, 178, 185), rgb(23, 32, 42), rgb(23, 32, 42));
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.head-image-opac-rev {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  opacity: 1;
+}
+
+#revheadtopic {
+  color: #fff;
+  position: absolute;
+  bottom: 30%;
+  left: 3%;
+}
+
+#revheadtopic a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#revtopic {
+  position: absolute;
+  bottom: 12%;
+  left: 3%;
+  color: #fff;
+  width: 90%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#revtopic a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  opacity: 1;
+}
+
+#revtopicauthor {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+#revtopicauthor a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.column-second-head {
+  width: 368px;
+  height: 96px;
+  display: flex;
+  background-color: rgba(255, 68, 34, 0.1);
+}
+
+#smallimg {
+  width: 96px;
+  height: 96px;
+}
+
+.second-head-details {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.second-head-details h4 {
+  color: #f21;
+  font-size: 15px;
+  padding-bottom: 4px;
+}
+
+.second-head-details a {
+  text-decoration: none;
+  color: #f42;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+#revtopicauthor a:hover {
+  color: #fff;
+}
+
+.column-article {
+  width: 368px;
+}
+
+.all-article-list {
+  width: 368px;
+  padding-left: 15px;
+}
+
+.all-article-list a {
+  color: #555;
+  text-decoration: none;
+  padding: 10px 0 6px 14px;
+  display: block;
+  font-size: 13px;
+}
+
+.all-article-list li {
+  border-bottom: 1px solid rgb(214, 219, 223);
+}
+
+#hard {
+  color: #f42;
+  text-decoration: none;
+}
+
+#hard:hover {
+  color: #000;
+}
+
+.all-article-list a:hover {
+  color: #000;
 }
