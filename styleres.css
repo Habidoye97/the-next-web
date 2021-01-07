@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .news-top-head {
     grid-template-rows: 190px 190px;
   }
@@ -110,5 +110,356 @@
   .deals-image {
     width: 310px;
     height: 201px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .top-head-section2 {
+    display: none;
+  }
+  
+  .second-head-section1 a {
+    font-size: 12px;
+  }
+
+  .news-top-head {
+    grid-template-rows: 240px 240px;
+    grid-template-columns: 32% 32% 32%;
+  }
+
+  #topic a {
+    font-size: 140%;
+  }
+
+  #topic2 a,
+  #topic3 a {
+    font-size: 67%;
+  }
+
+  #topic2,
+  #topic3 {
+    bottom: 17%;
+  }
+
+  .thelatestnews-section h2 {
+    padding-left: 15px;
+  }
+
+  .thelatestnews {
+    grid-template-columns: 230px 230px 230px;
+  }
+
+  #pictures,
+  #pictures1,
+  #pictures2,
+  #pictures3,
+  #pictures4,
+  #pictures5,
+  #pictures6,
+  #pictures7 {
+    width: 230px;
+    height: 120px;
+  }
+
+  #latesttopicnews,
+  #latesttopicnews1,
+  #latesttopicnews2,
+  #latesttopicnews3,
+  #latesttopicnews4,
+  #latesttopicnews5,
+  #latesttopicnews6,
+  #latesttopicnews7 {
+    font-size: 13px;
+  }
+
+  #latesttopicnewsothers,
+  #latesttopicnewsothers1,
+  #latesttopicnewsothers2,
+  #latesttopicnewsothers3,
+  #latesttopicnewsothers4,
+  #latesttopicnewsothers5,
+  #latesttopicnewsothers6,
+  #latesttopicnewsothers7,
+  #latesttopicnewsothers11,
+  #latesttopicnewsothers12,
+  #latesttopicnewsothers13,
+  #latesttopicnewsothers14,
+  #latesttopicnewsothers15,
+  #latesttopicnewsothers16,
+  #latesttopicnewsothers17,
+  #latesttopicnewsothers18 {
+    font-size: 11px;
+  }
+
+  .latest-funding {
+    display: block;
+    padding-left: 15px;
+    padding-right: 0;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    padding-top: 50px;
+  }
+
+  .latest-funding h2 {
+    padding-bottom: 15px;
+  }
+
+  .latest-funding span {
+    display: block;
+  }
+
+  .main-latest-funding-card {
+    display: grid;
+    grid-template-columns: repeat(3, 230px);
+    grid-column-gap: 10px;
+    justify-content: center;
+  }
+
+  .last-funding-card-head {
+    width: 230px;
+  }
+
+  .zipari,
+  .card-head-details {
+    width: 230px;
+  }
+
+  .last-funding-card-details,
+  .funding-card-details {
+    width: 230px;
+  }
+
+  .latest-funding-card4 {
+    display: none;
+  }
+
+  .section-column {
+    grid-template-columns: repeat(2, 360px);
+  }
+
+  .column-first-head-image {
+    width: 350px;
+    height: 300px;
+  }
+
+  .column-second-head,
+  .column-article,
+  .all-article-list {
+    width: 350px;
+  }
+
+  .section-column-first:last-child {
+    display: none;
+  }
+
+  .deals-head {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .deals-list {
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: 260px 260px 260px;
+    grid-column-gap: 18px;
+    grid-row-gap: 30px;
+  }
+
+  .deals-image {
+    width: 220px;
+    height: 180px;
+  }
+
+  .deals-image-details,
+  .deal-pricenew {
+    font-size: 13px;
+  }
+
+  .deal-priceold {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .top-head-section,
+  .second-head-section1,
+  .search {
+    display: none;
+  }
+
+  .news-top-head {
+    display: grid;
+    grid-template-columns: 98%;
+    grid-template-rows: 249px 249px 249px;
+  }
+
+  .news-top-headpics1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  #headtopic,
+  #headtopic2,
+  #headtopic3 {
+    bottom: 34%;
+  }
+
+  #topic a,
+  #topic2 a,
+  #topic3 a {
+    font-size: 80%;
+  }
+
+  .thelatestnews-section h2 {
+    padding-left: 10%;
+    font-size: 20px;
+  }
+
+  .thelatestnews {
+    grid-template-columns: 80%;
+    grid-template-rows: repeat(8, 280px);
+  }
+
+  #pictures,
+  #pictures1,
+  #pictures2,
+  #pictures3,
+  #pictures4,
+  #pictures5,
+  #pictures6,
+  #pictures7 {
+    width: 320px;
+    height: 200px;
+  }
+
+  #latesttopicnews,
+  #latesttopicnews1,
+  #latesttopicnews2,
+  #latesttopicnews3,
+  #latesttopicnews4,
+  #latesttopicnews5,
+  #latesttopicnews6,
+  #latesttopicnews7 {
+    font-size: 15px;
+  }
+
+  #latesttopicnewsothers,
+  #latesttopicnewsothers1,
+  #latesttopicnewsothers2,
+  #latesttopicnewsothers3,
+  #latesttopicnewsothers4,
+  #latesttopicnewsothers5,
+  #latesttopicnewsothers6,
+  #latesttopicnewsothers7,
+  #latesttopicnewsothers11,
+  #latesttopicnewsothers12,
+  #latesttopicnewsothers13,
+  #latesttopicnewsothers14,
+  #latesttopicnewsothers15,
+  #latesttopicnewsothers16,
+  #latesttopicnewsothers17,
+  #latesttopicnewsothers18 {
+    font-size: 13px;
+  }
+
+  .latest-funding {
+    display: block;
+    padding-left: 15px;
+    padding-right: 0;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    padding-top: 50px;
+  }
+
+  .latest-funding h2 {
+    padding-bottom: 15px;
+  }
+
+  .latest-funding span {
+    display: block;
+  }
+
+  .main-latest-funding-card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-column-gap: 10px;
+    grid-template-rows: auto;
+    grid-row-gap: 20px;
+    justify-content: center;
+  }
+
+  .last-funding-card-head {
+    width: 300px;
+  }
+
+  .zipari,
+  .card-head-details {
+    width: 300px;
+  }
+
+  .last-funding-card-details,
+  .funding-card-details {
+    width: 300px;
+  }
+
+  .latest-funding-card4 {
+    display: none;
+  }
+
+  .section-column {
+    grid-template-columns: 360px;
+    grid-row-gap: 20px;
+  }
+
+  .column-first-head-image {
+    width: 350px;
+    height: 300px;
+  }
+
+  .column-second-head,
+  .column-article,
+  .all-article-list {
+    width: 350px;
+  }
+
+  #revtopic a,
+  #revtopic1 a,
+  #revtopic2 a,
+  #revtopic3 a,
+  #revtopic4 a,
+  #revtopic5 a,
+  #revtopic6 a,
+  #revtopic7 a,
+  #revtopic8 a {
+    font-size: 14px;
+  }
+
+  .section-column-first:last-child {
+    display: none;
+  }
+
+  .deals-head {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .deals-list {
+    grid-template-columns: repeat(2, 170px);
+    grid-template-rows: 260px 260px 260px;
+    grid-column-gap: 18px;
+    grid-row-gap: 30px;
+  }
+
+  .deals-image {
+    width: 170px;
+    height: 180px;
+  }
+
+  .deals-image-details,
+  .deal-pricenew {
+    font-size: 13px;
+  }
+
+  .deal-priceold {
+    font-size: 11px;
   }
 }
