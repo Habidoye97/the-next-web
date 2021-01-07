@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-header {
-  position: relative;
-  
-}
-
 .top-head-section {
   display: flex;
   justify-content: space-between;
@@ -253,8 +248,7 @@ header {
   text-decoration: none;
   color: inherit;
   font-weight: 900;
-  font-size: 60px;
-  line-height: 40px;
+  font-size: 210%;
 }
 
 #topic2,
@@ -296,8 +290,7 @@ header {
   text-decoration: none;
   color: inherit;
   font-weight: 900;
-  font-size: 25px;
-  line-height: -1rem;
+  font-size: 105%;
   opacity: 1;
 }
 
